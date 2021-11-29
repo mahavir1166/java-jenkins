@@ -39,6 +39,6 @@ public class JavaSample {
             System.out.println("Something went wrong.");
         }
         System.out.println(driver.getTitle());
-        driver.quit();
+        driver.close();
     }
 }
